@@ -1,20 +1,57 @@
-# Offline Conversational AI
+# Standalone Offline Conversational AI
 
-## Overview
-Offline Conversational AI is a privacy-focused assistant that runs
-locally without internet connectivity.
-
-The system processes user queries using local language models
-and generates intelligent responses.
+A privacy-first conversational AI system that runs completely offline without internet or cloud APIs.
 
 ## Features
-- Fully offline conversational AI
-- Local LLM inference
-- Privacy focused architecture
-- Customizable prompts
-- Fast response generation
 
-## Technology Stack
-- Python
-- Local LLM models
-- AI prompt engineering
+- 100% Offline AI
+- No cloud dependency
+- Local vector database
+- Fast cosine similarity retrieval
+- Privacy-preserving architecture
+- Works on low-end hardware
+
+## Architecture
+
+User Query
+   ↓
+Text Preprocessing
+   ↓
+Embedding Generation
+   ↓
+Vector Similarity Search
+   ↓
+Response Retrieval
+   ↓
+Offline Output
+
+## Technologies Used
+
+Python  
+Sentence Transformers  
+NumPy  
+Scikit-learn  
+NLTK  
+
+## Installation
+
+git clone https://github.com/username/offline-conversational-ai
+
+cd offline-conversational-ai
+
+pip install -r requirements.txt
+
+python main_chatbot.py
+
+## Example
+
+User: What is the project about?  
+Bot: The Standalone Conversational AI System is an offline chatbot using embeddings and vector search.
+
+## Use Cases
+
+Cybersecurity labs  
+Air-gapped systems  
+Offline environments  
+Educational AI systems  
+Private AI assistants
