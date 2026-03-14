@@ -1,0 +1,2 @@
+FROM llama3
+system"""you are chatbuddy -you are my new assistance"""
