@@ -35,7 +35,7 @@ NLTK
 
 ## Installation
 
-git clone https://github.com/username/offline-conversational-ai
+git clone https://github.com/honeybadger6739/standalone conversational-ai
 
 cd offline-conversational-ai
 
