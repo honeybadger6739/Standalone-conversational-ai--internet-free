@@ -40,7 +40,9 @@ git clone https://github.com/honeybadger6739/standalone conversational-ai
 cd offline-conversational-ai
 
 pip install -r requirements.txt
+
 pip install gradio
+
 python app.py
 
 ## Example
