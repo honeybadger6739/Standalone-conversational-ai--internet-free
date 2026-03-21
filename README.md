@@ -40,8 +40,8 @@ git clone https://github.com/honeybadger6739/standalone conversational-ai
 cd offline-conversational-ai
 
 pip install -r requirements.txt
-
-python main_chatbot.py
+pip install gradio
+python app.py
 
 ## Example
 
