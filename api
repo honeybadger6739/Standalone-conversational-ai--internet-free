@@ -1,0 +1,38 @@
+
+# Python API documentation for http://127.0.0.1:7860/
+API Endpoints: 1
+
+1. Install the Python client [docs](https://www.gradio.app/guides/getting-started-with-the-python-client) if you don't already have it installed. 
+
+```bash
+pip install gradio_client
+```
+
+2. Find the API endpoint below corresponding to your desired function in the app. Copy the code snippet, replacing the placeholder values with your own input data. 
+
+### API Name: /chat_with_ai
+
+
+```python
+from gradio_client import Client
+
+client = Client("http://127.0.0.1:7860")
+result = client.predict(
+	user_input="Hello!!",
+	api_name="/chat_with_ai",
+)
+print(result)
+```
+
+Accepts 1 parameter:
+
+user_input:
+- Type: str
+- Required
+- The input value that is provided in the Enter your question Textbox component. 
+
+Returns 1 element:
+
+- Type: str
+- The output value that appears in the "AI Response" Textbox component.
+
